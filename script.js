@@ -11,10 +11,20 @@ function isValidPassword(password, username) {
 //exercise two
 function findAvg(arr) {
     let total = 0; 
-    let arrayLength = arr.length;
     for (let i = 0 ; i < arr.length ; i++  ) {
        total += arr[i]
     }
     return total / arr.length;
 }
 
+//exercise three
+function isPangram () {
+    let pangram = 'The quick brown fox jumps over the lazy dog.'
+    for (i = 0; i > pangram.length ; i++) {
+        // if ( pangram.charAt(i) === test.includes(pangram.charAt(i))) {
+            console.log(pangram.charAt(i))
+        }
+
+}
+//i want my pangram to compare with test and determine if it contains all characters
+//
